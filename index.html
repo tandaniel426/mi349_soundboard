@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Soundboard</title>
+</head>
+<body>
+    <h1>Daniel Tan's Soundboard</h1>
+    <div class="button-holder">
+        <button type="button" id="horn" onmouseover="playHorn()">
+            Car Horn
+            <audio id="horn-sound" src="car_horn_x.wav"></audio>
+        </button>
+        <button type="button" id="alarm" onmouseover="playAlarm()">
+            Alarm Beep
+            <audio id="alarm-sound" src="alarm_beep.wav"></audio>
+        </button>
+        <button type="button" id="bell" onmouseover="playBell()">
+            Bicycle Bell
+            <audio id="bell-sound" src="bicycle_bell.wav"></audio>
+        </button>
+        <button type="button" id="cheering" onmouseover="playCheering()">
+            Crowd Cheering
+            <audio id="cheering-sound" src="cheering.wav"></audio>
+        </button>
+    </div>
+    <script src="soundboard.js"></script>
+</body>
+</html>
