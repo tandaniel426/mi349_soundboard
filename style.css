@@ -24,18 +24,34 @@ button {
     font-weight: bold;
 }
 
+#horn {
+    background-color: salmon;
+}
+
+#alarm {
+    background-color: yellow;
+}
+
+#bell {
+    background-color: green;
+}
+
+#cheering {
+    background-color: blue;
+}
+
 #horn:hover {
     background-color: lightsalmon;
 }
 
 #alarm:hover {
-    background-color: lightblue;
-}
-
-#bell:hover {
     background-color: lightyellow;
 }
 
-#cheering:hover {
+#bell:hover {
     background-color: lightgreen;
+}
+
+#cheering:hover {
+    background-color: lightblue;
 }
