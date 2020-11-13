@@ -6,6 +6,10 @@ body {
     text-align: center;
 }
 
+h1 {
+    font-family: fantasy;
+}
+
 .button-holder {
     text-align: center;
     vertical-align: middle;
@@ -18,4 +22,20 @@ button {
     border-radius: 20%;
     background-color: lightseagreen;
     font-weight: bold;
+}
+
+#horn:hover {
+    background-color: lightsalmon;
+}
+
+#alarm:hover {
+    background-color: lightblue;
+}
+
+#bell:hover {
+    background-color: lightyellow;
+}
+
+#cheering:hover {
+    background-color: lightgreen;
 }
