@@ -32,7 +32,7 @@ button {
 }
 
 #bell {
-    background-color: green;
+    background-color: seagreen;
 }
 
 #cheering {
@@ -48,7 +48,7 @@ button {
 }
 
 #bell:hover {
-    background-color: lightgreen;
+    background-color: lightseagreen;
 }
 
 #cheering:hover {
