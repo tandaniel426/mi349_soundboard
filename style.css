@@ -36,7 +36,7 @@ button {
 }
 
 #cheering {
-    background-color: blue;
+    background-color: cyan;
 }
 
 #horn:hover {
@@ -52,5 +52,5 @@ button {
 }
 
 #cheering:hover {
-    background-color: lightblue;
+    background-color: lightcyan;
 }
